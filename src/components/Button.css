@@ -9,6 +9,7 @@
     outline: none;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
 .btn-primary{
@@ -37,5 +38,11 @@
 .btn-medium:hover, .btn-large:hover{
     background: var(--hover-color);
     color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.btn:hover{
+    background-color: var(--primary);
+    color: #fff;
     transition: all 0.3s ease-out;
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 
 import Button from './Button'
@@ -17,7 +17,7 @@ function Navbar(){
         if (window.innerWidth <= 960) {
             setButton(false)
         }else{
-            setButton(true)
+            setButton(true) 
         }
     }
 
@@ -46,39 +46,39 @@ function Navbar(){
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
 
-                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className="nav-item">
+                <ul className={click ? 'nav-menu' : 'displayNone'}>
+                    <li className='nav-item'>
                         <Link 
                             to='./' 
                             onClick={closeMobileMenu} 
-                            className="nav-links"
+                            className='nav-links'
                         >
                             Home
                         </Link>
                     </li> 
-                    <li className="nav-item">
+                    <li className='nav-item'>
                         <Link 
                             to='./episodes' 
                             onClick={closeMobileMenu} 
-                            className="nav-links"
+                            className='nav-links'
                         >
                             Episodes
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    <li className='nav-item'>
                         <Link 
                             to='./cast' 
                             onClick={closeMobileMenu} 
-                            className="nav-links"
+                            className='nav-links'
                         >
                             Cast
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    <li className='nav-item'>
                         <Link 
                             to='./watch-trailer' 
                             onClick={closeMobileMenu} 
-                            className='nav-links-mobile'
+                            className='nav-links-mobile' 
                         >
                             Watch Trailer
                         </Link>
