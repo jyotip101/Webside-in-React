@@ -26,7 +26,7 @@ function Navbar(){
     }, [])
 
      window.addEventListener('resize', showButton) 
-
+ 
     return(
     <>
         <nav className="navbar">
@@ -46,7 +46,7 @@ function Navbar(){
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
 
-                <ul className={click ? 'nav-menu' : 'displayNone'}>
+                <ul className={click || window.innerWidth >= 960 ? 'nav-menu' : 'displayNone'}>
                     <li className='nav-item'>
                         <Link 
                             to='./' 
@@ -80,11 +80,11 @@ function Navbar(){
                             onClick={closeMobileMenu} 
                             className='nav-links-mobile' 
                         >
-                            Watch Trailer
+                            Watch Trailer <i className=" far fa-play-circle"></i>
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Watch Trailer</Button>}
+                {button && <Button buttonStyle='btn--outline '>Watch Trailer <i className=" far fa-play-circle"></i> </Button>}
             </div>
         </nav>
     </>

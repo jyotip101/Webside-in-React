@@ -4,7 +4,15 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+:root{
+    --bg-color: #191c2f;
+    --hover-color: #191c2f1c;
+}
 
 .home, .episodes, .Cast, .watch-trailer{
     display: flex; 
+    
+}
+body{ 
+    
 }

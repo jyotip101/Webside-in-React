@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 
 import Navbar from './components/Navber'
+import Home from './components/pages/Home'
 
 import './App.css'
 
@@ -15,7 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route psth='/' exact />
+          <Route psth='/' exact component={Home} />
         </Switch>
       </Router>
     </>

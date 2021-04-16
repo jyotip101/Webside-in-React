@@ -4,7 +4,7 @@
 }
 .navbar{
     background-color:  transparent;
-    height: 80px;
+    /* height: 80px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,12 +22,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
+    /* height: 20px; */
     max-width: 15000px;
 }
 
 .navbar-logo{
-    color: var(--bg-color);
+    color: #fff;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -40,10 +40,11 @@
 }
 
 .logo{
-    margin-left: 0.5rem;
+    
     font-size: 1.8rem;
     width: 150px;
-    height: 40px;background-color: var(--bg-color);
+    height: 40px; 
+    background-color: transparent;
 }
 
 .nav-menu{
@@ -62,21 +63,22 @@
 }
 
 .nav-links{
-    color: var(--bg-color);
+    color: #fff;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    height: 100%;
-    color: var(--bg-color);
-    border-bottom: 3px solid transparent;
+    height: 100%; 
     transition: all 0.3s ease-out;
 }
 
 .nav-links:hover{
-    background-color: var(--hover-color);
-    border-bottom-color: var(--bg-color);
-    border-radius: 2px;
+    background: #ffffff;
+    color: var(--bg-color); 
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: 250ms;
+    border: none;
     transition: all 0.3s ease-out;
 }
 /* 
@@ -86,7 +88,7 @@
     border-radius: 2px;
 } */
 .fa-bars{
-    color: var(--bg-color);
+    color: #fff;
 }
 
 .nav-links-mobile{
@@ -111,9 +113,9 @@
         top: 0; 
         opacity: 1;
         padding-top: 15vh;
+        margin-right: unset;
         transition: all 0.5s ease;
-        background: var(--bg-color);
-        color: #fff;
+        background: #fff; 
         z-index: -1;
     }
  
@@ -126,21 +128,24 @@
     } */
 
     .nav-links{
-        color: #fff;
-    }
-    .nav-links{
+        display: block;
         text-align: center;
-        padding: 2rem; 
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: var(--bg-color);
-        
+        padding: 1rem 30px;
+        margin: auto auto;
+        border-radius: 4px;
+        width: 80%;
+        background-color: transparent;
+        color: var(--bg-color);
+        text-decoration: none; 
+        font-size: 1.5rem;
+        transition: all 0.3s ease-out;
+        border: none;
     }
-    .nav-item:hover{
-        background: #fff; 
-        
-        color:  var(--bg-color);
+    .nav-links:hover{
+        background: var(--bg-color);
+        color: #fff;
+        transition: 250ms;
+        border: none;
     }
 
     .navbar-logo{
@@ -148,6 +153,7 @@
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
+        z-index: -1;
     }
 
     .menu-icon{
@@ -161,7 +167,7 @@
     }
 
     .fa-times{
-        color: #fff;
+        color: var(--bg-color);
         font-size: 2rem;
         z-index: 1;
     }
@@ -172,17 +178,18 @@
         padding: 14px 30px;
         margin: 2rem auto;
         border-radius: 4px;
-        width: 80%;
+        width: 80%; 
         background-color: transparent;
-        text-decoration: none;
+        border: 2px solid var(--bg-color);
         color: var(--bg-color);
+        text-decoration: none; 
         font-size: 1.5rem;
         transition: all 0.3s ease-out;
     }
 
     .nav-links-mobile:hover{
-        background: #fff;
-        color: #1888ff;
+        background: var(--bg-color);
+        color: #fff;
         transition: 250ms;
     }
 }
