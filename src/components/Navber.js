@@ -84,7 +84,7 @@ function Navbar(){
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline '>Watch Trailer <i className=" far fa-play-circle"></i> </Button>}
+                {button && <Button buttonStyle='btn--outline '> Watch on Offical Side <i className=" far fa-play-circle"></i> </Button>}
             </div>
         </nav>
     </>

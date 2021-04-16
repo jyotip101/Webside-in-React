@@ -9,10 +9,25 @@
     --hover-color: #191c2f1c;
 }
 
-.home, .episodes, .Cast, .watch-trailer{
+.home, .episodes, .cast, .watch-trailer{
     display: flex; 
-    
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+} 
+
+.episodes{
+    color: #fff;
+    font-size: 100px;
 }
-body{ 
-    
+
+.cast{ 
+    color: #fff;
+    font-size: 100px;
+}
+
+.watch-trailer{
+    color: #fff;
+    font-size: 100px;
 }
