@@ -9,16 +9,17 @@ function HomeSection(){
         <div className="home-container">
             {/* <img src={require("../images/homeImg.jpg").default} alt=""/> */}
             {/* <h1>Sweet Home</h1> */}
+            
+            <div className="banner-fadeTop"></div>
             <p>As humans turn into savage monsters and wreak terror,
              one troubled teen and his apartment neighbors fight to
-             survive.</p>
-
+             survive.</p> 
             <div className="home-btns">
-            <i className=" far fa-play-circle" />
+            <i className="far fa-play-circle" />
                 <Button 
                     className='btn'
-                    buttonSize='btn--outline'
-                    buttonSize='btn--large'
+                    buttonStyle='btn--outline'
+                    buttonSize='btn--large '
                 >
                     Watch Tralier 
                 </Button> 

@@ -16,7 +16,10 @@
     justify-content: center;
     font-size: 3rem;
 } 
-
+.root, body{
+    margin: 0;
+    padding: 0;
+}
 .episodes{
     color: #fff;
     font-size: 100px;
