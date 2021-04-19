@@ -112,12 +112,12 @@ form .btn{
     margin: 40px auto 0 auto;
 }
 .social-logo{
-    color: transparent;
+    color: #fff;
+    font-size: 2rem;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
+    text-decoration: none; 
     display: flex;
     align-self: center;
     margin-bottom: 16px;

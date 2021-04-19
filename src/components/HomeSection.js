@@ -7,15 +7,10 @@ import './HomeSection.css'
 function HomeSection(){
     return (
         <div className="home-container">
-            {/* <img src={require("../images/homeImg.jpg").default} alt=""/> */}
-            {/* <h1>Sweet Home</h1> */}
-            
+            {/* <video src={require("../images/video.mp4").default} autoPlay loop muted /> */}
             <div className="banner-fadeTop"></div>
-            <p>As humans turn into savage monsters and wreak terror,
-             one troubled teen and his apartment neighbors fight to
-             survive.</p> 
-            <div className="home-btns">
-            <i className="far fa-play-circle" />
+            <p>What are you waiting for?</p> 
+            <div className="home-btns"> 
                 <Button 
                     className='btn'
                     buttonStyle='btn--outline'

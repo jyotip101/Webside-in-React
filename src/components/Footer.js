@@ -61,7 +61,7 @@ function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link className="social-logo">
-                        <img src={require('../images/logo.png').default} alt="" className="logo"  />
+                        <h1>Web <i className="fas fa-suitcase-rolling"/></h1>
                         </Link>
                     </div>
                      

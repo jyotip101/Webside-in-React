@@ -36,7 +36,7 @@ function Navbar(){
                     className="navbar-logo" 
                     onClick={closeMobileMenu}
                 >
-                    <img src={require('../images/logo.png').default} alt="" className="logo"  />
+                     <h1>Web <i className="fas fa-suitcase-rolling"/></h1>
                 </Link>
                 
                 <div 

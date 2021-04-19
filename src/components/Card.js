@@ -12,65 +12,54 @@ function Card() {
                 <div className="cards-wrapper">
                     <ul className="cards-items">
                     <CardItem 
-                        path='/cast'
-                        label='Ep.01'
-                        text='this is text from card'
-                        src={require('../images/ep1.jpg').default}
+                        path='/'
+                        label='Card 01'
+                        text='This is the text for card 01'
+                        src={require('../images/01.jpg').default}
                     />
                     <CardItem 
-                        path='/cast'
-                        label='Ep.02'
-                        text='this is text from card'
-                        src={require('../images/ep2.jpg').default}
+                        path='/'
+                        label='Card 02'
+                        text='This is the text for card 02'
+                        src={require('../images/02.jpg').default}
                     />
                     <CardItem 
-                        path='/cast'
-                        label='Ep.03'
-                        text='this is text from card'
-                        src={require('../images/ep3.jpg').default}
+                        path='/'
+                        label='Card 03'
+                        text='This is the text for card 03'
+                        src={require('../images/03.jpg').default}
                     />
                     <CardItem 
-                        path='/cast'
-                        label='Ep.04'
-                        text='this is text from card'
-                        src={require('../images/ep4.jpg').default}
+                        path='/'
+                        label='Card 04'
+                        text='This is the text for card 04'
+                        src={require('../images/04.jpg').default}
                     />
                     <CardItem 
-                        path='/cast'
-                        label='Ep.05'
-                        text='this is text from card'
-                        src={require('../images/ep5.jpg').default}
+                        path='/'
+                        label='Card 05'
+                        text='This is the text for card 05'
+                        src={require('../images/05.jpg').default}
                     />
                     <CardItem 
-                        path='/cast'
-                        label='Ep.06'
-                        text='this is text from card'
-                        src={require('../images/ep6.jpg').default}
+                        path='/'
+                        label='Card 06'
+                        text='This is the text for card 06'
+                        src={require('../images/06.jpg').default}
                     />
                     <CardItem 
-                        path='/cast'
-                        label='Ep.07'
-                        text='this is text from card'
-                        src={require('../images/ep7.jpg').default}
+                        path='/'
+                        label='Card 07'
+                        text='This is the text for card 07'
+                        src={require('../images/07.jpg').default}
                     />
                     <CardItem 
-                        path='/cast'
-                        label='Ep.08'
-                        text='this is text from card'
-                        src={require('../images/ep8.jpg').default}
+                        path='/'
+                        label='Card 08'
+                        text='This is the text for card 08'
+                        src={require('../images/08.jpg').default}
                     />
-                    <CardItem 
-                        path='/cast'
-                        label='Ep.09'
-                        text='this is text from card'
-                        src={require('../images/ep9.jpg').default}
-                    />
-                    <CardItem 
-                        path='/cast'
-                        label='Ep.10'
-                        text='this is text from card'
-                        src={require('../images/ep10.jpg').default}
-                    />
+                    
                     </ul>
                 </div>
             </div>
