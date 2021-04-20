@@ -9,10 +9,10 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Join and get the infomation about top 10 Movies delay
+                    Join and get the infomation about Adventure web delay
                 </p>
                 <p className="footer-subscription-text">
-                    You can unsubscribe at any time.
+                    You can unsubscribe at any time
                 </p>
                 <div className="input-area">
                     <form action="">
@@ -29,16 +29,18 @@ function Footer() {
 
                  <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Short Liinks</h2>
-                        <Link to='/'>Home</Link>
-                        <Link to='/'>Episodes</Link>
-                        <Link to='/'>Cast</Link>
+                        <h2>Videos</h2>
+                        <Link to='/'>Submit Video</Link>
+                        <Link to='/'>Agency</Link>
+                        <Link to='/'>Influencer</Link>
+                        <Link to='/'>Ambassadors</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>About Us</h2>
                         <Link to='/'>How it works</Link>
                         <Link to='/'>Terms of Service</Link>
                         <Link to='/'>Careers</Link>
+                        <Link to='/'>Investors</Link>
                     </div>
                 </div>
             
@@ -47,13 +49,15 @@ function Footer() {
                         <h2>Contact Us</h2>
                         <Link to='/'>Contact</Link>
                         <Link to='/'>Support</Link>
-                        <Link to='/'>Careers</Link>
+                        <Link to='/'>Sponsorsships</Link>
+                        <Link to='/'>Destination</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Social Media</h2>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Support</Link>
-                        <Link to='/'>Careers</Link>
+                        <Link to='/'>Instagram</Link>
+                        <Link to='/'>Facebook</Link>
+                        <Link to='/'>Youtube</Link>
+                        <Link to='/'>Twitter</Link>
                     </div>
                 </div>
             </div>
