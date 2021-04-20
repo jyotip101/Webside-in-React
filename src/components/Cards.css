@@ -1,13 +1,12 @@
 .cards{
     padding: 4rem;
     background: #fff;
+    color: #252e48;
 }
 h1{
     text-align: center;
 }
-.cards-container{
-    display: flex;
-    flex-flow: column;
+.cards-container{ 
     align-items: center;
     max-width: 1120px;
     width: 100%;
@@ -15,10 +14,12 @@ h1{
 }
 .cards-wrapper{
     position: relative;
-    margin: 50px 0 45px;
+    margin: 2rem;
 }
 .cards-items{
-    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
 }
 .cards-item{
     display: flex;
@@ -98,10 +99,6 @@ h1{
 }
 
 @media only screen and (min-width: 1024px){
-    .cards-items{
-        display: flex;
-        flex-wrap: wrap;
-    }
     
     .cards-item-link{ 
         width: 25vw;
@@ -109,11 +106,7 @@ h1{
 }
 
 @media only screen and (max-width: 1014px){
-    .cards-items{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
+
     .cards-item-link{ 
         width: 25vw;
     }
@@ -126,22 +119,10 @@ h1{
 } 
 
 
-@media only screen and (max-width: 968px){
+@media only screen and (max-width: 768px){
    .cards-item-link{ 
-        width: 55vw;
+        width: 50vw;
     }
-    .cards-items{
-        display: flex;
-        flex-wrap: wrap;
-    }
+   
 } 
-
-@media only screen and (max-width: 368px){
-    .cards-item-link{ 
-         width: 90vw;
-     }
-     .cards-items{
-         display: flex;
-         flex-wrap: wrap;
-     }
- } 
+ 

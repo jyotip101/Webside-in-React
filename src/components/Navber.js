@@ -36,7 +36,7 @@ function Navbar(){
                     className="navbar-logo" 
                     onClick={closeMobileMenu}
                 >
-                     <h1>Web <i className="fas fa-suitcase-rolling"/></h1>
+                    <h1>Web <i className="fas fa-suitcase-rolling"/></h1>
                 </Link>
                 
                 <div 
@@ -47,31 +47,32 @@ function Navbar(){
                 </div>
 
                 <ul className={click || window.innerWidth >= 960 ? 'nav-menu' : 'displayNone'}>
+                    
                     <li className='nav-item'>
                         <Link 
                             to='./' 
                             onClick={closeMobileMenu} 
                             className='nav-links'
                         >
-                            Home
-                        </Link>
-                    </li> 
-                    <li className='nav-item'>
-                        <Link 
-                            to='./episodes' 
-                            onClick={closeMobileMenu} 
-                            className='nav-links'
-                        >
-                            Episodes
+                            Services
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link 
-                            to='./cast' 
+                            to='./' 
                             onClick={closeMobileMenu} 
                             className='nav-links'
                         >
-                            Cast
+                            Products
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link 
+                            to='./' 
+                            onClick={closeMobileMenu} 
+                            className='nav-links'
+                        >
+                            Travel Plane
                         </Link>
                     </li>
                     <li className='nav-item'>
@@ -84,7 +85,7 @@ function Navbar(){
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline '> Watch on Offical Side <i className=" far fa-play-circle"></i> </Button>}
+                {button && <Button buttonStyle='btn--outline '> Watch Trailer <i className=" far fa-play-circle"></i> </Button>}
             </div>
         </nav>
     </>
